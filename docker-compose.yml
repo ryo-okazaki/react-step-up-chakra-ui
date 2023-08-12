@@ -11,4 +11,3 @@ services:
       - WDS_SOCKET_PORT=0
     volumes:
       - ./react:/app
-    tty: true
