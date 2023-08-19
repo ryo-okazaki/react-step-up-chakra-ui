@@ -11,12 +11,12 @@ export const MenuIconButton: FC<Props> = memo((props) => {
 
   return (
     <IconButton 
-        aria-label="メニューボタン" 
-        icon={<HamburgerIcon />} 
-        size="sm" 
-        variant="unstyled" 
-        display={{ base: "block", md: "none" }} 
-        onClick={onOpen}
+      aria-label="メニューボタン" 
+      icon={<HamburgerIcon />} 
+      size="sm" 
+      variant="unstyled" 
+      display={{ base: "block", md: "none" }} 
+      onClick={onOpen}
     />
   )
 });
